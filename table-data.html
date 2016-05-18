@@ -1,0 +1,7 @@
+<h1>Fine Scotches</h1>
+<table role="table" class="table table-bordered table-condensed">
+	<tr ng-repeat="x in scotches">
+		<td>{{ x.name }}</td>
+		<td>{{ x.price | currency }}</td>
+	</tr>
+</table>
